@@ -7,3 +7,12 @@ D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrar
 D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
 D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb
 D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.AssemblyReference.cache
+C:\WorkNet\BlazorTestApp\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+C:\WorkNet\BlazorTestApp\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+C:\WorkNet\BlazorTestApp\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+C:\WorkNet\BlazorTestApp\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.AssemblyReference.cache
+C:\WorkNet\BlazorTestApp\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\WorkNet\BlazorTestApp\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\WorkNet\BlazorTestApp\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\WorkNet\BlazorTestApp\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+C:\WorkNet\BlazorTestApp\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb
