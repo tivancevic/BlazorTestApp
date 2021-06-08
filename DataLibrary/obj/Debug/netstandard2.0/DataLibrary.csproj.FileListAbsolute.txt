@@ -1,0 +1,9 @@
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb
+D:\_Teo_\C#\Blazor_MySQL_testing\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.AssemblyReference.cache

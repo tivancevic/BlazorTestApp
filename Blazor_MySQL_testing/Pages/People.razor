@@ -1,0 +1,120 @@
+﻿@page "/people"
+
+@using Blazor_MySQL_testing.Models
+@using DataLibrary
+@using Microsoft.Extensions.Configuration
+@inject IDataAccess _data
+@inject IConfiguration _config;
+
+<h1>People</h1>
+<form>
+	<div class="form-row">
+		<p>
+
+		</p>
+	</div>
+	<label class="col-form-label">Insert new person</label>
+	<div class="form-row">
+		<div class="col">
+			<input class="form-control" placeholder="First name" @bind="first_name_input" />
+		</div>
+		<div class="col">
+			<input class="form-control" placeholder="Last name" @bind="last_name_input" />
+		</div>
+		<div class="col">
+			<input type="email" class="form-control" placeholder="Email" pattern="^[a-zA-Z0-9._+-]+@("@")[a-zA-Z0-9.-]+\.[a-zA-Z]{2,9}$" @bind="email_input" />
+		</div>
+		<div class="col">
+			<button type="submit" class="btn btn-primary" @onclick="InsertData">Insert</button>
+		</div>
+	</div>
+	<div class="form-row">
+		<p>
+			 
+		</p>
+	</div>
+	
+	<!--<button type="submit" class="btn btn-warning" @onclick="UpdateData">Update</button>-->
+
+</form>
+
+
+@if (people == null)
+{
+	<p><em>Loading...</em></p>
+}
+else
+{
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>First Name</th>
+				<th>Last name</th>
+				<th>Email</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var p in people)
+			{
+				<tr>
+					
+					<td>@p.id</td>
+					<td>@p.first_name</td>
+					<td>@p.last_name</td>
+					<td>@p.email</td>
+					<td><button type="submit" class="btn btn-danger btn-sm" @onclick="(() => DeleteData(p.id))">Delete</button></td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+
+@code {
+	List<PersonModel> people;
+
+	string first_name_input;
+	string last_name_input;
+	string email_input;
+
+	private async Task InsertData()
+	{
+		string sql = "INSERT INTO people (first_name, last_name, email) VALUES(@first_name, @last_name, @email)";
+
+		await _data.SaveData(sql, new { first_name = first_name_input, last_name = last_name_input, email = email_input }, _config.GetConnectionString("default"));
+
+		await OnInitializedAsync();
+	}
+
+	private async Task UpdateData()
+	{
+		//string sql = "UPDATE people SET first_name = 'Jovan' WHERE last_name = 'Bob'";
+		string sql = "UPDATE people SET first_name = @first_name WHERE last_name = @last_name";
+
+		await _data.SaveData(sql, new { first_name = "Jovan", last_name = "Bob" }, _config.GetConnectionString("default"));
+
+		await OnInitializedAsync();
+	}
+
+	private async Task DeleteData(int my_id)
+	{
+		//ovdije stavljam id="@id" i to mi znaci da je id iz tablice jednak @id varijabli u ovoj liniji ispod toga
+		//u kojoj pozivam SaveData
+		string sql = "DELETE FROM people WHERE id = @id";
+
+		//ovdije mi ovaj "id" predstavlja @id iz linije gore, a my_id mi je vrijednost koju sam dao u funkciju
+		await _data.SaveData(sql, new { id = my_id }, _config.GetConnectionString("default"));
+
+		await OnInitializedAsync();
+	}
+
+	protected override async Task OnInitializedAsync()
+	{
+		string sql = "select * from people";
+		people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+
+	}
+}
