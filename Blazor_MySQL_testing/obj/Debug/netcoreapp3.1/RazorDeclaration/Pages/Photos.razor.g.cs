@@ -13,84 +13,84 @@ namespace Blazor_MySQL_testing.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 1 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 2 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 3 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 4 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 5 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 6 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 7 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 8 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Blazor_MySQL_testing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\_Imports.razor"
+#line 9 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\_Imports.razor"
 using Blazor_MySQL_testing.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\Pages\Photos.razor"
+#line 3 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\Pages\Photos.razor"
 using Blazor_MySQL_testing.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\Pages\Photos.razor"
+#line 4 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\Pages\Photos.razor"
 using DataLibrary;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\Pages\Photos.razor"
+#line 5 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\Pages\Photos.razor"
 using Microsoft.Extensions.Configuration;
 
 #line default
@@ -105,9 +105,10 @@ using Microsoft.Extensions.Configuration;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 66 "D:\_Teo_\C#\Blazor_MySQL_testing\Blazor_MySQL_testing\Pages\Photos.razor"
+#line 66 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\Pages\Photos.razor"
        
 	List<PhotoModel> photos;
+	List<PersonModel> people;
 
 	string url_input;
 	string person_id_input;
@@ -156,6 +157,9 @@ using Microsoft.Extensions.Configuration;
 	{
 		string sql = "select * from photos";
 		photos = await _data.LoadData<PhotoModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+
+		sql = "select * from people";
+		people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
 
 	}
 
