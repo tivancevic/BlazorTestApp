@@ -6,42 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="858273b1-52f7-43ab-bd12-ccbd1c31573f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Blazor_MySQL_testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blazor_MySQL_testing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/Data/WeatherForecastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/Data/WeatherForecastService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/Photos.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/Photos.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/DataLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/DataLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/DataLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/DataLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Blazor_MySQL_testing.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Counter.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Counter.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Error.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Error.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/FetchData.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/FetchData.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/People.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/People.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Photos.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/Photos.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/RazorDeclaration/Blazor_MySQL_testing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/RazorDeclaration/Blazor_MySQL_testing.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/RazorDeclaration/Blazor_MySQL_testing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/RazorDeclaration/Blazor_MySQL_testing.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLibrary/bin/Debug/netstandard2.0/DataLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataLibrary/bin/Debug/netstandard2.0/DataLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLibrary/bin/Debug/netstandard2.0/DataLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataLibrary/bin/Debug/netstandard2.0/DataLibrary.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataLibrary/obj/Debug/netstandard2.0/DataLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Photos.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Photos.razor.g.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +28,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Blazor_MySQL_testing/appsettings.json" />
+      <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Data/Photos.cs" />
+      <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Data/PhotosService.cs" />
+      <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Data/WeatherForecastService.cs" />
+      <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/Photos.razor" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1tgH9JBQ6AuDgI6pZe30SbhggBN" />
   <component name="ProjectViewState">
@@ -62,6 +49,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Blazor_MySQL_testing">
@@ -104,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623183659861</updated>
-      <workItem from="1623183668167" duration="850000" />
+      <workItem from="1623183668167" duration="4035000" />
     </task>
     <servers />
   </component>
@@ -113,6 +104,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

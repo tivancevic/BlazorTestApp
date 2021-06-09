@@ -3,8 +3,20 @@
 @using Blazor_MySQL_testing.Models
 @using DataLibrary
 @using Microsoft.Extensions.Configuration
+@using Blazor_MySQL_testing.Data
 @inject IDataAccess _data
 @inject IConfiguration _config;
+
+	class PeoplePhotos
+	{
+		public string FirstName {get; set; }
+		public string LastName {get; set; }
+		public int PhotoId {get; set; }
+		public string Url {get; set; }
+	
+	}
+
+
 
 <h1>Photos</h1>
 
@@ -36,7 +48,7 @@
 
 </form>
 
-@if (photos == null) { 
+@if (PeoplePhotos == null) { 
 	<p>Loading...</p>
 }
 else
@@ -44,11 +56,11 @@ else
 	<div class="container">
 		<div class="row row-cols-1 row-cols-md-4">
 	
-			@foreach (var photo in photos)
+			@foreach (var photo2 in peoplePhotos)
 			{
 				<div class="col mb-4">
 					<div class="card">
-						<img class="card-img-top" src="@photo.url" alt="Image ID: @photo.id">
+						<img class="card-img-top" src="@photo2." alt="Image ID: @photo.id">
 						<div class="card-body">
 							<h5 class="card-title">Id: @photo.id by person Id: @photo.person_id</h5>
 							<p class="card-text">This is a photo with the Id of @photo.id made by person with Id @photo.person_id</p>
@@ -69,6 +81,7 @@ else
 
 	string url_input;
 	string person_id_input;
+	
 
 	private async Task InsertData()
 	{
@@ -112,11 +125,16 @@ else
 
 	protected override async Task OnInitializedAsync()
 	{
-		string sql = "select * from photos";
-		photos = await _data.LoadData<PhotoModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+	//		string sql = "select * from photos";
+//		photos = await _data.LoadData<PhotoModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
 
-		sql = "select * from people";
-		people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+//		sql = "select * from people";
+//		people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
 
+		string sql = "select people.first_name, people.last_name, photos.id photo_id, photos.url from people join photos on people.id = photos.person_id";
+		var peoplePhos = await _data.LoadData<PeoplePhotos, dynamic>(sql, new {}, _config.GetConnectionString("default"));
+
+
+	//		var myresult = await _data.LoadData(_config.GetConnectionString("default")con.Query<PeoplePhotos>("SELECT * FROM photos").ToList()));
 	}
 }

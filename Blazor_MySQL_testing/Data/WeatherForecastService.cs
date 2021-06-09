@@ -10,6 +10,8 @@ namespace Blazor_MySQL_testing.Data
 		{
 			"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 		};
+		
+		
 
 		public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
 		{

@@ -96,6 +96,13 @@ using Microsoft.Extensions.Configuration;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\Pages\Photos.razor"
+using Blazor_MySQL_testing.Data;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/photos")]
     public partial class Photos : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,13 +112,14 @@ using Microsoft.Extensions.Configuration;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 66 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\Pages\Photos.razor"
+#line 78 "C:\WorkNet\BlazorTestApp\Blazor_MySQL_testing\Pages\Photos.razor"
        
 	List<PhotoModel> photos;
 	List<PersonModel> people;
 
 	string url_input;
 	string person_id_input;
+	
 
 	private async Task InsertData()
 	{
@@ -155,12 +163,17 @@ using Microsoft.Extensions.Configuration;
 
 	protected override async Task OnInitializedAsync()
 	{
-		string sql = "select * from photos";
-		photos = await _data.LoadData<PhotoModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+	//		string sql = "select * from photos";
+//		photos = await _data.LoadData<PhotoModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
 
-		sql = "select * from people";
-		people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+//		sql = "select * from people";
+//		people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
 
+		string sql = "select people.first_name, people.last_name, photos.id photo_id, photos.url from people join photos on people.id = photos.person_id";
+		var peoplePhos = await _data.LoadData<PeoplePhotos, dynamic>(sql, new {}, _config.GetConnectionString("default"));
+
+
+	//		var myresult = await _data.LoadData(_config.GetConnectionString("default")con.Query<PeoplePhotos>("SELECT * FROM photos").ToList()));
 	}
 
 #line default
