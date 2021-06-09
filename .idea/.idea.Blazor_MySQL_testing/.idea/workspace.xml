@@ -7,6 +7,7 @@
     <list default="true" id="858273b1-52f7-43ab-bd12-ccbd1c31573f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Blazor_MySQL_testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Blazor_MySQL_testing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/Data/WeatherForecastService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/Data/WeatherForecastService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/People.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/People.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/Photos.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/Photos.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Blazor_MySQL_testing/bin/Debug/netcoreapp3.1/Blazor_MySQL_testing.Views.pdb" afterDir="false" />
@@ -36,6 +37,7 @@
       <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Data/PhotosService.cs" />
       <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Data/WeatherForecastService.cs" />
       <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/Photos.razor" />
+      <option value="$PROJECT_DIR$/Blazor_MySQL_testing/Pages/People.razor" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tgH9JBQ6AuDgI6pZe30SbhggBN" />
@@ -95,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623183659861</updated>
-      <workItem from="1623183668167" duration="4035000" />
+      <workItem from="1623183668167" duration="4204000" />
     </task>
     <servers />
   </component>
