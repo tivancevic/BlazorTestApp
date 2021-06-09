@@ -996,23 +996,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tomislav\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Users\\teo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkNet\\BlazorTestApp\\Blazor_MySQL_testing\\Blazor_MySQL_testing.csproj",
+      "projectUniqueName": "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\Blazor_MySQL_testing\\Blazor_MySQL_testing.csproj",
       "projectName": "Blazor_MySQL_testing",
-      "projectPath": "C:\\WorkNet\\BlazorTestApp\\Blazor_MySQL_testing\\Blazor_MySQL_testing.csproj",
-      "packagesPath": "C:\\Users\\Tomislav\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkNet\\BlazorTestApp\\Blazor_MySQL_testing\\obj\\",
+      "projectPath": "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\Blazor_MySQL_testing\\Blazor_MySQL_testing.csproj",
+      "packagesPath": "C:\\Users\\teo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\Blazor_MySQL_testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tomislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\teo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1027,8 +1030,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\WorkNet\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj": {
-              "projectPath": "C:\\WorkNet\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj"
+            "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj": {
+              "projectPath": "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj"
             }
           }
         }
@@ -1058,16 +1061,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.15, 3.1.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

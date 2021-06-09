@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkNet\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj": {}
+    "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj": {}
   },
   "projects": {
-    "C:\\WorkNet\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj": {
+    "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkNet\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj",
         "projectName": "DataLibrary",
-        "projectPath": "C:\\WorkNet\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj",
-        "packagesPath": "C:\\Users\\Tomislav\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkNet\\BlazorTestApp\\DataLibrary\\obj\\",
+        "projectPath": "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\DataLibrary\\DataLibrary.csproj",
+        "packagesPath": "C:\\Users\\teo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teo\\Source\\Repos\\BlazorTestApp\\DataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tomislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\teo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
